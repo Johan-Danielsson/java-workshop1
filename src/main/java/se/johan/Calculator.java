@@ -21,7 +21,10 @@ public class Calculator {
             System.out.println("5: Exit the calculator");
             System.out.println("Please enter your option:");
 
+
             int option = input.nextInt();
+
+
 
             if (option == 1) {
                 System.out.print("Enter the first number: ");
@@ -59,6 +62,9 @@ public class Calculator {
                 System.out.println("Thank you for using the calculator. Good bye!");
                 System.exit(0); // exit the program without
             }
+
+            else
+                System.out.println("Please enter a correct value.");
 
         }
     }
